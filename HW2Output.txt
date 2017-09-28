@@ -1,0 +1,52 @@
+run:
+This program allows you to choose one of 4 operations: 
+1 - Display the countries that border another Country. 
+2 - Display all countries that have a population greater than a given population. 
+3 - Display the countries that border another Country with a population greater than a given population. 
+4 - Quit the program. 
+
+To select the program simply type the number corresponding to the operation you want to be completed and then follow the instructions 
+on screen. (When entering Countries use upper-case first letter followed by lower-case form) 
+------------------------------------------------------------------------------------------------- 
+
+Which Operation would you like to perform: 1
+Which country: 
+Poland
+Countries that border Poland: 
+ -Czechia
+ -Germany
+
+
+Would you like to Continue? (Y or N): Y
+Which Operation would you like to perform: 2
+What population would you like to test? (whole number): 
+350000000
+Countries with Population over 350000000:
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 2
+What population would you like to test? (whole number): 
+35000000
+Countries with Population over 35000000:
+ -Germany
+ -Poland
+ -France
+
+
+Would you like to Continue? (Y or N): Y
+Which Operation would you like to perform: 3
+What Country's borders would you like to check?
+Csechia
+What Country's borders would you like to check?
+Czechia
+What population? (whole number): 
+12500000
+Countries that border Czechia and have a population greater than 12500000: 
+ -Germany
+ -Poland
+
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 4
+BUILD SUCCESSFUL (total time: 3 minutes 23 seconds)
